@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
 
 *, *::before, *::after {
@@ -8,4 +9,24 @@ html {
 
 h1 {
   text-align: center;
+  font-size: 1.5rem;
+}
+
+.anderson {
+  background-color: #e2e2e2;
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+  border-left: 3px solid #333;
+  border-right: 3px solid #333;
+}
+
+.ships {
+  background-color: #999;
+  border-right: 3px solid #333
 }
