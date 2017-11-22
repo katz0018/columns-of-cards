@@ -12,21 +12,46 @@ h1 {
   font-size: 1.5rem;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+img {
+  width: 100px;
+  display: block;
+  float: left;
+}
+
 .anderson {
   background-color: #e2e2e2;
+  border-left: 3px solid #333;
+  float: left;
+  width: 20%;
 }
 
 .knights {
   background-color: #ccc;
+  border-left: 3px solid #333;
+  float: left;
+  width: 20%;
 }
 
 .dragon {
   background-color: #aaa;
   border-left: 3px solid #333;
   border-right: 3px solid #333;
+  float: left;
+  width: 20%;
 }
 
 .ships {
   background-color: #999;
-  border-right: 3px solid #333
+  border-right: 3px solid #333;
+  float: left;
+  width: 20%;
 }
