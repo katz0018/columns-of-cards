@@ -67,10 +67,10 @@ img {
 }
 
 dl {
-text-align: left
+  text-align: left;
 }
 
-strong {
+h3 {
   padding-left: .75rem;
 }
 
