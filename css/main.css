@@ -96,7 +96,7 @@ a {
   margin: 0 0 0 -.75em;
 }
 
-a:hover {
+.btn .btn-small a:hover {
   background-color: #000;
   border-color: #000;
 }
