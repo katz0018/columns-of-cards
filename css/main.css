@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-style: normal;
+  font-family: 'Open Sans', sans-serif;
 }
 
 *, *::before, *::after {
@@ -10,6 +10,7 @@ html {
 main {
   background-color: #f2f2f2;
   overflow: hidden;
+  padding: 1.5rem;
 }
 
 h1 {
@@ -19,7 +20,6 @@ h1 {
 
 ul {
   list-style-type: none;
-  margin: 0;
 }
 
 li {
@@ -37,7 +37,7 @@ img {
   border-left: 1px solid #333;
   float: left;
   width: 20%;
-  min-height: 25em;
+  min-height: 26em;
 }
 
 .knights {
@@ -45,7 +45,7 @@ img {
   border-left: 1px solid #333;
   float: left;
   width: 20%;
-  min-height: 25em;
+  min-height: 26em;
 }
 
 .dragon {
@@ -54,7 +54,7 @@ img {
   border-right: 1px solid #333;
   float: left;
   width: 20%;
-  min-height: 25em;
+  min-height: 26em;
 }
 
 .ships {
@@ -62,7 +62,7 @@ img {
   border-right: 1px solid #333;
   float: left;
   width: 20%;
-  min-height: 25em;
+  min-height: 26em;
 }
 
 dl {
@@ -76,6 +76,8 @@ strong {
 dt {
   font-size: .875rem;
   margin: 0 0 0 .75rem;
+  font-style: italic;
+  padding: .75rem 0;
 }
 
 dd {
