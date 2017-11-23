@@ -1,10 +1,14 @@
 html {
   box-sizing: border-box;
-  font-style: sans-serif;
+  font-style: normal;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+main {
+  background-color: #f2f2f2;
 }
 
 h1 {
@@ -24,6 +28,7 @@ li {
 img {
   width: 100px;
   display: block;
+  margin: 1rem auto 1.5rem;
 }
 
 .anderson {
@@ -53,4 +58,18 @@ img {
   border-right: 3px solid #333;
   float: left;
   width: 20%;
+}
+
+dl dt {
+padding-left: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background: #333;
+  font-size: 1.125rem;
 }
