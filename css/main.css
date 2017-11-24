@@ -84,7 +84,7 @@ dd {
   margin: 0 0 0 .75rem;
 }
 
-a {
+.btn {
   text-decoration: none;
   color: #fff;
   border: 3px solid #333;
@@ -96,7 +96,17 @@ a {
   margin: 0 0 0 -.75em;
 }
 
-.btn .btn-small a:hover {
+.btn-small {
+  text-decoration: none;
+  color: #fff;
+  border: 3px solid #333;
+  border-radius: 8px;
+  padding: .4em .75em .3em;
+  background: #333;
+  font-size: .875rem;
+  font-style: normal;
+  margin: 0 0 0 -.75em;
+a:hover{
   background-color: #000;
   border-color: #000;
 }
