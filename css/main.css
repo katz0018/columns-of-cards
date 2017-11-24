@@ -92,8 +92,7 @@ dd {
   padding: .4em .75em .3em;
   background: #333;
   font-size: 1.125rem;
-  font-style: normal;
-  margin: 0 0 0 -.75em;
+  font-style: bold;
 }
 
 .btn-small {
@@ -104,9 +103,11 @@ dd {
   padding: .4em .75em .3em;
   background: #333;
   font-size: .875rem;
-  font-style: normal;
-  margin: 0 0 0 -.75em;
-a:hover{
+  font-style: bold;
+  margin: 0 0 0 -.75rem;
+}
+
+a:hover {
   background-color: #000;
   border-color: #000;
 }
