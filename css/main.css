@@ -31,7 +31,7 @@ li {
 img {
   width: 100px;
   display: block;
-  margin: 1rem auto 1.5rem;
+  margin: .8rem auto 1.5rem;
 }
 
 .anderson {
@@ -109,7 +109,7 @@ dd {
   margin: 0 0 0 -.75rem;
 }
 
-a:hover {
+.btn:hover {
   background-color: #000;
   border-color: #000;
 }
