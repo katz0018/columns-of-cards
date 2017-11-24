@@ -10,7 +10,7 @@ html {
 body {
   background-color: #f2f2f2;
   overflow: hidden;
-  padding: 1.5rem;
+  padding: 0 1.5rem;
   margin: 0;
 }
 
@@ -21,11 +21,11 @@ h2 {
 
 ul {
   list-style-type: none;
+  margin: 0;
 }
 
 li {
   list-style-type: none;
-  padding: 0;
 }
 
 img {
@@ -94,7 +94,7 @@ dd {
   padding: .4em .75em .3em;
   background: #333;
   font-size: 1.125rem;
-  font-style: bold;
+  font-style: normal;
 }
 
 .btn-small {
@@ -105,7 +105,7 @@ dd {
   padding: .4em .75em .3em;
   background: #333;
   font-size: .875rem;
-  font-style: bold;
+  font-style: normal;
   margin: 0 0 0 -.75rem;
 }
 
