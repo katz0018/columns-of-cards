@@ -16,7 +16,7 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 
 ul {
@@ -25,6 +25,7 @@ ul {
 
 li {
   list-style-type: none;
+  padding: 0;
 }
 
 img {
@@ -71,7 +72,8 @@ dl {
 }
 
 h3 {
-  padding-left: .75rem;
+  padding: 0 0 0 .75rem;
+  font-size: .875rem;
 }
 
 dt {
