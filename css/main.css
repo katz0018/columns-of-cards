@@ -28,9 +28,14 @@ li {
   list-style-type: none;
 }
 
-.card img {
-  width: 100px;
+img {
+  width: 100%;
   display: block;
+}
+
+.card {
+  max-width: 100px;
+  width: 100px;
   margin: .8rem auto 1.5rem;
 }
 
